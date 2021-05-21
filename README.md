@@ -1,2 +1,5 @@
 # DenGoConverter
-Connect Densha de Go PS controller to Nintendo Switch
+PS用の電車でGOコントローラーをNintendo Switch版電車でGO はしろう山手線に接続する変換器のArduinoスケッチファイルです。
+
+変換器の組み立てが必要です。
+作り方は以下のURLをご覧ください。
