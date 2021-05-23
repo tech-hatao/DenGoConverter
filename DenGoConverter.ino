@@ -228,7 +228,7 @@ void loop(){
  
     static bool btnRightPressed = false;
   
-    if(readStickX < 100 ){
+    if(readStickX < 200 ){
       if(!btnRightPressed){
         SwitchControlLibrary().pressHatButton(Hat::RIGHT);
         SwitchControlLibrary().sendReport(); 
@@ -244,7 +244,7 @@ void loop(){
 
     static bool btnLeftPressed = false; 
     
-    if(readStickX > 924 ){
+    if(readStickX > 824 ){
       if(!btnLeftPressed){
         SwitchControlLibrary().pressHatButton(Hat::LEFT);
         SwitchControlLibrary().sendReport(); 
@@ -261,7 +261,7 @@ void loop(){
     static bool btnUpPressed = false;
 
   
-    if(readStickY < 100 ){
+    if(readStickY < 200 ){
       if(!btnUpPressed){
         SwitchControlLibrary().pressHatButton(Hat::UP);
         SwitchControlLibrary().sendReport(); 
@@ -277,7 +277,7 @@ void loop(){
 
     static bool btnDownPressed = false;
     
-    if(readStickY > 924 ){
+    if(readStickY > 824 ){
       if(!btnDownPressed){
         SwitchControlLibrary().pressHatButton(Hat::DOWN);
         SwitchControlLibrary().sendReport(); 
